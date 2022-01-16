@@ -568,7 +568,28 @@ run()
 <script src="https://mde.tw/cp2021/cmsimde/static/gearUtils-09.js"></script>
 <script src="https://mde.tw/cp2021/cmsimde/static/SVGpathUtils-6v03-min.js"></script>
 <script src="https://mde.tw/cp2021/cmsimde/static/sylvester.js"></script>
-<script src="https://mde.tw/cp2021/cmsimde/static/PrairieDraw.js"></script><h2>55</h2>
+<script src="https://mde.tw/cp2021/cmsimde/static/PrairieDraw.js"></script><h1>Final Project</h1>
+<p>Final Project 佔學期成績 30%</p>
+<p><span style="background-color: #ffff99;">Final Project 必須在 2022.01.05 22:00 之前完成</span>.</p>
+<p><a href="https://github.com/mdecourse/cp2021/discussions/11">Final Project 具體項目成果回報區</a>將於 2021.11.09 開啟, 於 <span style="background-color: #ff99cc;">2022.01.05 22:00 關閉</span></p>
+<p>利用 Brython 寫一個會<span style="background-color: #ffff99;">令人想玩</span>的網際遊戲.</p>
+<h4>參考章節:</h4>
+<ol>
+<li><a href="https://www.enago.tw/academy/%E5%A6%82%E4%BD%95%E6%92%B0%E5%AF%AB%E6%91%98%E8%A6%81%EF%BC%9F/">專題摘要</a></li>
+<li><a href="https://ctld.ntu.edu.tw/ls/strategy/lecture.php?index=126">資料蒐集</a></li>
+<li><a href="http://old.gst.org.tw/WPES/guideline_D-a.htm">設計動機</a></li>
+<li><a href="https://wordvice.com.tw/%E5%A6%82%E4%BD%95%E5%AF%AB%E5%A5%BD%E8%AB%96%E6%96%87%E4%B8%AD%E7%9A%84%E3%80%8C%E7%A0%94%E7%A9%B6%E6%96%B9%E6%B3%95%E3%80%8D/">設計方法</a></li>
+<li><a href="http://microbiology.scu.edu.tw/MIB/wong/courses/writing/result02.htm">結果與討論</a></li>
+<li><a href="https://www.enago.tw/academy/what-you-need-to-know-about-the-manuscript-appendix/">附錄</a></li>
+</ol>
+<h4>參考資料:</h4>
+<p style="padding-left: 30px;"><a href="https://github.com/collections/web-games">https://github.com/collections/web-games</a></p>
+<p style="padding-left: 30px;"><a href="https://github.com/topics/web-game">https://github.com/topics/web-game</a></p>
+<p style="padding-left: 30px;"><a href="https://github.com/topics/browser-game">https://github.com/topics/browser-game</a></p>
+<p style="padding-left: 30px;"><a href="https://github.com/leereilly/games">https://github.com/leereilly/games</a></p>
+<p style="padding-left: 30px;"><a href="https://bmsleight.github.io/brython-blocks/">https://bmsleight.github.io/brython-blocks/</a></p>
+<p style="padding-left: 60px;"><a href="https://github.com/mdecourse/brython-blocks">https://github.com/mdecourse/brython-blocks</a></p>
+<h3>41023114</h3>
 <!-- 導入 brython 程式庫 -->
 <script src="/static/brython.js"></script>
 <script src="/static/brython_stdlib.js"></script>
@@ -660,6 +681,54 @@ def snake_inp(ev):
 
 # id 為 "snake" 的按鈕點按時, 執行 chec_inp 方法
 doc["snake"].bind('click', snake_inp)
+final1_qwe_url = "https://gist.githubusercontent.com/41023114/16b90d8cc80d5251e834cecfd759349e/raw/145481220e3d3c705c79e9d8508083e5b70c2d32/%25E6%25A0%25BC%25E5%25AD%2590"
+ # 從 gist 取得程式碼
+final1_wq = open(final1_qwe_url).read()
+
+def final1_inp(ev):
+     Ace.editor.setValue(final1_wq)
+     Ace.editor.scrollToRow(0)
+     Ace.editor.gotoLine(0)
+     Ace.run()
+
+# id 為 "final1" 的按鈕點按時, 執行 final6_inp 方法
+doc["final1"].bind('click', final6_inp)
+final1_qwe_url = "https://gist.githubusercontent.com/41023114/52f9fee4b504a07c0fc15d628f0e0f5d/raw/297e505cd9c925892aedd7d3cbba3906b84a651d/U"
+ # 從 gist 取得程式碼
+final1_wq = open(final1_qwe_url).read()
+
+def final1_inp(ev):
+     Ace.editor.setValue(final1_wq)
+     Ace.editor.scrollToRow(0)
+     Ace.editor.gotoLine(0)
+     Ace.run()
+
+# id 為 "final1" 的按鈕點按時, 執行 chec_inp 方法
+doc["final1"].bind('click', final1_inp)
+final2_qwe_url = "https://gist.githubusercontent.com/41023114/a10851d8ff111d78de714cf87a34f4e6/raw/fbd1861e06fa678557b480ae7623d70c38efcba4/U%25E5%25AD%2597"
+ # 從 gist 取得程式碼
+final2_wq = open(final2_qwe_url).read()
+
+def final2_inp(ev):
+     Ace.editor.setValue(final2_wq)
+     Ace.editor.scrollToRow(0)
+     Ace.editor.gotoLine(0)
+     Ace.run()
+
+# id 為 "final2" 的按鈕點按時, 執行 chec_inp 方法
+doc["final2"].bind('click', final2_inp)
+final3_qwe_url = "https://gist.githubusercontent.com/41023114/66b1636d1d26947601b16f1cb138db7a/raw/750987f0e67c21540b8300e99bcb34855a04434e/%25E9%25A0%2586%25E6%2599%2582%25E9%2590%2598%25E5%2590%2583%25E9%25BB%259E"
+ # 從 gist 取得程式碼
+final3_wq = open(final3_qwe_url).read()
+
+def final3_inp(ev):
+     Ace.editor.setValue(final3_wq)
+     Ace.editor.scrollToRow(0)
+     Ace.editor.gotoLine(0)
+     Ace.run()
+
+# id 為 "final3" 的按鈕點按時, 執行 final3_inp 方法
+doc["final3"].bind('click', final3_inp)
 # 執行程式, 顯示輸出結果與清除輸出結果及對應按鈕綁定
 doc['kw_run'].bind('click', Ace.run)
 doc['kw_show_console'].bind('click', Ace.show_console)
@@ -677,6 +746,9 @@ run()
 <!-- 執行與清除按鈕開始 -->
 <p><button id="kw_run">Run</button> <button id="kw_show_console">Output</button> <button id="kw_clear_console">清除輸出區</button><button id="clear_bd">清除繪圖區</button><button onclick="window.location.reload()">Reload</button></p>
 <p><button id="asd">列出10個座標</button><button id="snake">snake</button></p>
+<p><button id="final2">final2</button></p>
+<p><button id="final1">final1</button></p>
+<p><button id="final3">final3</button></p>
 <p><!-- 執行與清除按鈕結束 --></p>
 <p></p>
 <p><!-- 程式執行 ouput 區 --></p>
@@ -689,24 +761,4 @@ run()
 <script src="https://mde.tw/cp2021/cmsimde/static/SVGpathUtils-6v03-min.js"></script>
 <script src="https://mde.tw/cp2021/cmsimde/static/sylvester.js"></script>
 <script src="https://mde.tw/cp2021/cmsimde/static/PrairieDraw.js"></script>
-</p><h1>Final Project</h1>
-<p>Final Project 佔學期成績 30%</p>
-<p><span style="background-color: #ffff99;">Final Project 必須在 2022.01.05 22:00 之前完成</span>.</p>
-<p><a href="https://github.com/mdecourse/cp2021/discussions/11">Final Project 具體項目成果回報區</a>將於 2021.11.09 開啟, 於 <span style="background-color: #ff99cc;">2022.01.05 22:00 關閉</span></p>
-<p>利用 Brython 寫一個會<span style="background-color: #ffff99;">令人想玩</span>的網際遊戲.</p>
-<h4>參考章節:</h4>
-<ol>
-<li><a href="https://www.enago.tw/academy/%E5%A6%82%E4%BD%95%E6%92%B0%E5%AF%AB%E6%91%98%E8%A6%81%EF%BC%9F/">專題摘要</a></li>
-<li><a href="https://ctld.ntu.edu.tw/ls/strategy/lecture.php?index=126">資料蒐集</a></li>
-<li><a href="http://old.gst.org.tw/WPES/guideline_D-a.htm">設計動機</a></li>
-<li><a href="https://wordvice.com.tw/%E5%A6%82%E4%BD%95%E5%AF%AB%E5%A5%BD%E8%AB%96%E6%96%87%E4%B8%AD%E7%9A%84%E3%80%8C%E7%A0%94%E7%A9%B6%E6%96%B9%E6%B3%95%E3%80%8D/">設計方法</a></li>
-<li><a href="http://microbiology.scu.edu.tw/MIB/wong/courses/writing/result02.htm">結果與討論</a></li>
-<li><a href="https://www.enago.tw/academy/what-you-need-to-know-about-the-manuscript-appendix/">附錄</a></li>
-</ol>
-<h4>參考資料:</h4>
-<p style="padding-left: 30px;"><a href="https://github.com/collections/web-games">https://github.com/collections/web-games</a></p>
-<p style="padding-left: 30px;"><a href="https://github.com/topics/web-game">https://github.com/topics/web-game</a></p>
-<p style="padding-left: 30px;"><a href="https://github.com/topics/browser-game">https://github.com/topics/browser-game</a></p>
-<p style="padding-left: 30px;"><a href="https://github.com/leereilly/games">https://github.com/leereilly/games</a></p>
-<p style="padding-left: 30px;"><a href="https://bmsleight.github.io/brython-blocks/">https://bmsleight.github.io/brython-blocks/</a></p>
-<p style="padding-left: 60px;"><a href="https://github.com/mdecourse/brython-blocks">https://github.com/mdecourse/brython-blocks</a></p>
+</p>
